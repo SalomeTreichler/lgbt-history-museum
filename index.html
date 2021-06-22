@@ -24,15 +24,6 @@
 
 <body>
 
-    <svg id="rainbow">
-        <rect class="stripes" id="red" />
-        <rect class="stripes" id="orange" />
-        <rect class="stripes" id="yellow" />
-        <rect class="stripes" id="green" />
-        <rect class="stripes" id="blue" />
-        <rect class="stripes" id="purple" />
-    </svg>
-
     <div class="container" style="height: 100%;">
         <div class="row v-center">
             <div class="col-2">
@@ -42,8 +33,39 @@
             </div>
         </div>
     </div>
+
+    <nav class="navbar fixed-bottom navbar-expand-sm nav-footer">
+        <div class="d-flex flex-row justify-content-center align-items-center" style="width: 100%">
+            <div class="p-2 menu-item active">
+                <a class="nav-link center-text" href="./index.html">
+                    <h4 class="rainbow">MUSEUM TOUR</h4>
+                </a>
+            </div>
+            <div class="p-2 menu-item not-active">
+                <a class="nav-link center-text" href="./legal-notice.html">
+                    <h4 class="rainbow">LEGAL NOTICE</h4>
+                </a>
+            </div>
+            <div class="p-2 menu-item not-active">
+                <a class="nav-link center-text" href="./about-us.html">
+                    <h4 class="rainbow">ABOUT US</h4>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <svg id="rainbow">
+        <rect class="stripes" id="red" />
+        <rect class="stripes" id="orange" />
+        <rect class="stripes" id="yellow" />
+        <rect class="stripes" id="green" />
+        <rect class="stripes" id="blue" />
+        <rect class="stripes" id="purple" />
+    </svg>
+
     <script src="scripts/rainbow.js"></script>
     <script src="scripts/title.js"></script>
+
 </body>
 
 </html>
