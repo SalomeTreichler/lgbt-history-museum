@@ -48,3 +48,7 @@
     transform: translatey(-50%);
     top: 50%;
 }
+
+#title {
+    letter-spacing: 2px;
+}
