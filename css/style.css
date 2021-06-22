@@ -59,9 +59,29 @@ a:hover{
     border-bottom: 3px solid #575757;
 }
 
+.not-active{
+    border-bottom: 3px solid #E8E1CF;
+}
+
 .header {
     background-color: #E8E1CF;
     width:100%;
     height: 75px;
     padding: 0px 40px 0px 40px;
+}
+
+.rainbow:hover {
+    width: fit-content;
+    background: #DD0303;
+    background: -webkit-linear-gradient(left, #F78800 , #F7E600, #007C25, #004BF7, #710783);
+    background: -o-linear-gradient(right, #F78800, #F7E600, #007C25, #004BF7, #710783);
+    background: -moz-linear-gradient(right, #F78800, #F7E600, #007C25, #004BF7, #710783);
+    background: linear-gradient(to right, #F78800 , #F7E600, #007C25, #004BF7, #710783);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.center-text{
+    display: flex;
+    justify-content: center;
 }
