@@ -1,0 +1,1 @@
+gsap.to("#title", {duration: 2, text: "PRIDE HISTORY <br>MUSEUM", delay: 1});

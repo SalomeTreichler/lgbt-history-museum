@@ -41,3 +41,9 @@
     fill: #710783;
     x: 100px;
 }
+
+.v-center {
+    position: relative;
+    transform: translatey(-50%);
+    top: 50%;
+}
