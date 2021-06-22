@@ -21,8 +21,40 @@ h3 {
     font-size: small;
 }
 
+h4 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+}
+
 p {
     font-family: 'Karla', sans-serif;
     font-weight: 400;
     font-size: small;
+}
+
+.nav-footer{
+    background-color: #E8E1CF;
+    height: 75px;
+}
+
+.nav-link {
+    color: #232323;
+}
+
+.nav-link:hover {
+    color: #575757;
+}
+
+a:hover{
+    color: #575757;
+}
+
+.menu-item{
+    width: 300px;
+    text-align: center;
+}
+
+.active {
+    border-bottom: 3px solid #575757;
 }
