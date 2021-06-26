@@ -3,7 +3,7 @@ let tl = new TimelineMax();
 gsap.fromTo(
   "#red",
   {
-    y: -700,
+    y: -1000,
   },
   {
     duration: 3,
@@ -15,7 +15,7 @@ gsap.fromTo(
 gsap.fromTo(
     "#orange",
     {
-      y: -700,
+      y: -1000,
     },
     {
       duration: 3,
@@ -27,7 +27,7 @@ gsap.fromTo(
 gsap.fromTo(
     "#yellow",
     {
-      y: -700,
+      y: -1000,
     },
     {
       duration: 3,
@@ -39,7 +39,7 @@ gsap.fromTo(
 gsap.fromTo(
     "#green",
     {
-      y: -700,
+      y: -1000,
     },
     {
       duration: 3,
@@ -51,7 +51,7 @@ gsap.fromTo(
 gsap.fromTo(
     "#blue",
     {
-      y: -700,
+      y: -1000,
     },
     {
       duration: 3,
@@ -63,7 +63,7 @@ gsap.fromTo(
 gsap.fromTo(
     "#purple",
     {
-      y: -700,
+      y: -1000,
     },
     {
       duration: 3,
