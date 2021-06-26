@@ -52,3 +52,12 @@
 #title {
     letter-spacing: 2px;
 }
+
+#pride-logo {
+    position:absolute;
+    right: 0;
+    top: 0;
+    width: 5em;
+    height: auto;
+    margin: 1em;
+}
