@@ -222,15 +222,16 @@ button:focus {
 .text-container {
     background-color: #575757;
     padding: 15px;
-    width: 800px;
+    width: fit-content;
     box-shadow: 5px 5px 5px #23232342;
 }
 
-.text-container-small {
-    background-color: #575757;
-    padding: 15px;
-    width: 500px;
-    box-shadow: 5px 5px 5px #23232342;
+.text-container p {
+    color: #F9F9FB;
+}
+
+.text-container-no-bg {
+    width: fit-content;
 }
 
 .text-container .white-text {
@@ -243,20 +244,23 @@ button:focus {
 
 .img-container {
     text-align: center;
+    width: min-content;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .img-container-right {
     position: absolute;
-    top: 50%;
-    bottom: 50%;
+    top: 0%;
     right: 0;
+    padding-right: 15px;
+    padding-top: 6px;
 }
 
 .img-container-left {
     position: absolute;
-    top: 50%;
-    bottom: 50%;
-    right: 0;
+    top: 0%;
+    padding-top: 6px;
 }
 
 .caption {
@@ -265,4 +269,12 @@ button:focus {
 
 .row img {
     max-height: 300px;
+}
+
+hr {
+    border: 2px solid #575757;
+}
+
+.final-row {
+    padding-bottom: 200px;
 }
