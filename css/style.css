@@ -50,6 +50,10 @@ p {
     color: #232323;
 }
 
+.white-text {
+    color: #F9F9FB !important;
+}
+
 .page-content{
     width: 100%;
     height: 100%;
@@ -85,6 +89,21 @@ p {
     text-decoration: none;
 }
 
+.pastel-rainbow-link {
+    color: #F9F9FB;
+    width: fit-content;
+}
+
+.pastel-rainbow-link:hover{
+    background: #e47474;
+    background: -webkit-linear-gradient(left, #e6b273 , #e4cd74, #73e393, #7393e3, #d373e3);
+    background: -o-linear-gradient(right, #e6b273, #e4cd74, #73e393, #7393e3, #d373e3);
+    background: -moz-linear-gradient(right, #e6b273, #e4cd74, #73e393, #7393e3, #d373e3);
+    background: linear-gradient(to right, #e6b273 , #e4cd74, #73e393, #7393e3, #d373e3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+}
 
 a:hover{
     color: #232323;
@@ -199,3 +218,4 @@ button:focus {
     margin-left: 3vw;
     z-index: 1000;
 }
+
