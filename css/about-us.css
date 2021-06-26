@@ -1,0 +1,11 @@
+.page-content img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.page-content .creator p {
+    margin-top: 20px;
+    text-align: center;
+    width: 200px;
+}

@@ -15,25 +15,38 @@ h1 {
 h2 {
     font-family: 'Lato', sans-serif;
     font-weight: 700;
-    font-size: medium;
+    font-size: 60px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    color: #575757;
 }
 
 h3 {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
-    font-size: small;
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #232323;
 }
 
 h4 {
     font-family: 'Lato', sans-serif;
     font-weight: 700;
     font-size: 14px;
+    color: #232323;
 }
 
 p {
     font-family: 'Karla', sans-serif;
     font-weight: 400;
     font-size: small;
+    color: #232323;
+}
+
+.page-content{
+    width: 100%;
+    height: 100%;
+    padding: 100px 100px 100px 100px;
 }
 
 .nav-footer{
@@ -46,11 +59,28 @@ p {
 }
 
 .nav-link:hover {
-    color: #575757;
+    color: #232323;
 }
 
+.rainbow-link {
+    color: #232323;
+    width: fit-content;
+}
+
+.rainbow-link:hover{
+    background: #DD0303;
+    background: -webkit-linear-gradient(left, #F78800 , #F7E600, #007C25, #004BF7, #710783);
+    background: -o-linear-gradient(right, #F78800, #F7E600, #007C25, #004BF7, #710783);
+    background: -moz-linear-gradient(right, #F78800, #F7E600, #007C25, #004BF7, #710783);
+    background: linear-gradient(to right, #F78800 , #F7E600, #007C25, #004BF7, #710783);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+}
+
+
 a:hover{
-    color: #575757;
+    color: #232323;
 }
 
 .menu-item{
