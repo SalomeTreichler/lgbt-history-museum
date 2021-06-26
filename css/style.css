@@ -228,17 +228,19 @@ button:focus {
 
 .text-container p {
     color: #F9F9FB;
+    margin: 0;
+}
+
+.text-container h3 {
+    color: #F9F9FB;
+    margin: 0;
 }
 
 .text-container-no-bg {
     width: fit-content;
 }
 
-.text-container .white-text {
-    margin: 0px;
-}
-
-.text-container-small .white-text {
+.text-container h3 {
     margin: 0px;
 }
 
@@ -250,16 +252,11 @@ button:focus {
 }
 
 .img-container-right {
-    position: absolute;
-    top: 0%;
-    right: 0;
-    padding-right: 15px;
+    float: right;
     padding-top: 6px;
 }
 
 .img-container-left {
-    position: absolute;
-    top: 0%;
     padding-top: 6px;
 }
 
@@ -268,7 +265,7 @@ button:focus {
 }
 
 .row img {
-    max-height: 300px;
+    max-height: 325px;
 }
 
 hr {
@@ -276,5 +273,5 @@ hr {
 }
 
 .final-row {
-    padding-bottom: 200px;
+    padding-bottom: 100px;
 }
