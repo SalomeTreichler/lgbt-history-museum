@@ -36,6 +36,13 @@ h4 {
     color: #232323;
 }
 
+h5 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    color: #232323;
+}
+
 p {
     font-family: 'Karla', sans-serif;
     font-weight: 400;
@@ -139,12 +146,17 @@ button:focus {
     outline: none;
 }
 
-.arrow {
-    animation: slide 1s ease-in-out infinite;
+.arrowr {
+    animation: slider 1s ease-in-out infinite;
     margin-left: 5px;
-  }
+}
 
-@keyframes slide {
+.arrowl {
+    animation: slidel 1s ease-in-out infinite;
+    margin-right: 5px;
+}
+
+@keyframes slider {
     0%,
     100% {
         transform: translate(0, 0);
@@ -153,4 +165,37 @@ button:focus {
     50% {
         transform: translate(10px, 0);
     }
+}
+
+@keyframes slidel {
+    0%,
+    100% {
+        transform: translate(0, 0);
+    }
+
+    50% {
+        transform: translate(-10px, 0px);
+    }
+}
+
+.button-container-right {
+    position: fixed;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    flex-direction: row-reverse;
+    top: 80vh;
+    right: 0;
+    margin-right: 3vw;
+    z-index: 1000;
+}
+
+.button-container-left {
+    position: fixed;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    flex-direction: row-reverse;
+    top: 80vh;
+    left: 0;
+    margin-left: 3vw;
+    z-index: 1000;
 }
