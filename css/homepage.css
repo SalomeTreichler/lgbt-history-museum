@@ -1,0 +1,63 @@
+/* Rainbow */
+
+#rainbow {
+    z-index: 10000;
+    position: absolute;
+    height: 100%;
+    width: 120px;
+    top: 0;
+    left: 5vw;
+}
+
+.stripes {
+    height: 100%;
+    width: 20px;
+}
+
+#red {
+    fill: #DD0303;
+}
+
+#orange {
+    fill: #F78800;
+    x: 20px;
+}
+
+#yellow {
+    fill: #F7E600;
+    x: 40px;
+}
+
+#green {
+    fill: #007C25;
+    x: 60px;
+}
+
+#blue {
+    fill: #004BF7;
+    x: 80px;
+}
+
+#purple {
+    fill: #710783;
+    x: 100px;
+}
+
+.v-center {
+    position: relative;
+    transform: translatey(-50%);
+    top: 50%;
+}
+
+#title {
+    letter-spacing: 2px;
+}
+
+#pride-logo {
+    position:absolute;
+    right: 0;
+    top: 0;
+    width: 5em;
+    height: auto;
+    margin: 1em;
+}
