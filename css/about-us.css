@@ -9,3 +9,31 @@
     text-align: center;
     width: 200px;
 }
+
+#ally-flag {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    background-image: url('../data/ally-flag.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    opacity: 1;
+}
+
+#trans-flag {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    background-image: url('../data/trans-flag.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    opacity: 1;
+}
+
+.profile-picture:hover {
+    background-size: cover;
+    opacity: 0.5;
+    transition: opacity 0.5s ease-in-out;
+}
