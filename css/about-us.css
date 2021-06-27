@@ -9,3 +9,144 @@
     text-align: center;
     width: 200px;
 }
+
+#flag-container {
+    position: fixed;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    flex-direction: column;
+    top: 15vh;
+    right: 0;
+    z-index: 1000;
+}
+
+.flags {
+    z-index: 10000;
+    height: 12vh;
+    width: 12vw;
+    margin-bottom: 3vh;
+}
+
+#rainbow-flag {
+    top: 0;
+}
+
+.six-stripes {
+    height: 2vh;
+    width: inherit;
+}
+
+.five-stripes {
+    height: 2.4vh;
+    width: inherit;
+}
+
+.three-stripes {
+    height: 5vh;
+    width: inherit;
+}
+
+#white {
+    fill: #FFFFFF;
+    y: 4.8vh;
+}
+
+#rainbow-flag #red {
+    fill: #DD0303;
+}
+
+#rainbow-flag #orange {
+    fill: #F78800;
+    y: 2vh;
+}
+
+#rainbow-flag #yellow {
+    fill: #F7E600;
+    y: 4vh;
+}
+
+#rainbow-flag #green {
+    fill: #007C25;
+    y: 6vh;
+}
+
+#rainbow-flag #blue {
+    fill: #004BF7;
+    y: 8vh;
+}
+
+#rainbow-flag #purple {
+    fill: #710783;
+    y: 10vh;
+}
+
+#lesbian-flag #orange {
+    fill: #D62900;
+}
+
+#lesbian-flag #light-orange {
+    fill: #FF9B55;
+    y: 2.4vh;
+}
+
+#lesbian-flag #light-pink {
+    fill: #D462A5;
+    y: 7.2vh;
+}
+
+#lesbian-flag #pink {
+    fill: #A40062;
+    y: 9.6vh;
+}
+
+#gay-flag #blue {
+    fill: #00A6D6;
+}
+
+#gay-flag #light-blue {
+    fill: #55BBFF;
+    y: 2.4vh;
+}
+
+#gay-flag #light-green {
+    fill: #62D490;
+    y: 7.2vh;
+}
+
+#gay-flag #green {
+    fill: #00A440;
+    y: 9.6vh;
+}
+
+#bi-flag #pink {
+    fill: #CD0067;
+}
+
+#bi-flag #purple {
+    fill: #993299;
+    y: 5vh;
+}
+
+#bi-flag #blue {
+    fill: #003399;
+    y: 7vh;
+}
+
+#trans-flag #light-blue {
+    fill: #5ACFFA;
+}
+
+#trans-flag #light-pink {
+    fill: #F5AABA;
+    y: 2.4vh
+}
+
+#trans-flag #light-pink-2 {
+    fill: #F5AABA;
+    y: 7.2vh
+}
+
+#trans-flag #light-blue-2 {
+    fill: #5ACFFA;
+    y: 9.6vh
+}
