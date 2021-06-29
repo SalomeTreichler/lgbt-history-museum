@@ -148,5 +148,37 @@
 
 #trans-flag #light-blue-2 {
     fill: #5ACFFA;
-    y: 9.6vh
+    y: 9.6vh;
+}
+
+#ally-flag-profile {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    background-image: url('../data/ally-flag.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    opacity: 1;
+}
+
+#trans-flag-profile {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    background-image: url('../data/trans-flag.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    opacity: 1;
+}
+
+.profile-picture {
+    transition: opacity 0.5s ease-in-out;
+}
+
+.profile-picture:hover {
+    background-size: cover;
+    opacity: 0.5;
+    transition: opacity 0.5s ease-in-out;
 }
