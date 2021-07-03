@@ -7,5 +7,5 @@ In this Readme we will link the sources we used to create our Website.
 
 ### Sources
 
--
-- 
+- https://michalsnik.github.io/aos/
+- https://greensock.com/
